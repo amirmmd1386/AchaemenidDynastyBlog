@@ -1,0 +1,179 @@
+@font-face {
+    font-family: Shekasteh;
+    src: url(font/font2/Far.Naskh.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #C3B091;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7c694b;
+}
+
+* {
+    font-family: Shekasteh;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.modal-content {
+    background-color: #C3B091;
+}
+
+.article {
+    background-color: #C3B091;
+    font-family: Shekasteh;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.card_img {
+    width: 280px;
+    height: 250px;
+    
+}
+
+.card_img>img {
+    height: 250px;
+    width: 280px;
+    object-fit: cover;
+}
+
+.about {
+    background-color: #C3B091;
+    padding: 20px 5px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.footer {
+    background-color: #C3B091;
+}
+
+.footer>div {
+    padding: 10px 0px;
+}
+
+.about>div {
+    background: rgb(252, 231, 207);
+}
+
+.capital img {
+    object-fit: cover;
+}
+
+.capital>div>div>div {
+    border: 5px solid rgb(252, 231, 207);
+}
+
+.card_prof_shah {
+    width: 600px;
+    background-color: rgb(252, 231, 207);
+}
+
+.card-text {
+    width: 280px;
+    height: 250px;
+}
+
+.card-shah>img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.card-shah>p {
+    margin: 0;
+
+}
+
+.card-shah {
+    background-color: rgb(252, 231, 207);
+    padding: 10px 10px 0px 10px;
+    height: auto;
+    width: 200px;
+}
+
+header {
+    font-family: Shekasteh;
+    background-image: url(bg_image/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #7c694b;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 500px;
+}
+
+nav {
+    background-color: #C3B091;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+header>div>h1 {
+    font-size: 100px;
+}
+
+.offcanvas {
+    background-color: #C3B091;
+}
+
+@media only screen and (max-width: 750px) {
+    .nav_text {
+        display: none;
+    }
+
+    header>div>h1 {
+        font-size: 50px;
+    }
+
+    nav {
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .card_prof_shah {
+        width: 300px;
+        flex-wrap: wrap;
+    }
+
+    .card_shah_b {
+        flex-wrap: wrap;
+    }
+
+    .about>div {
+        flex-wrap: wrap;
+    }
+
+    header{
+        height: 350px;
+    }
+}
